@@ -1,0 +1,16 @@
+
+*.cache
+SendMailCharp/SendMailCharp/bin/Debug/SendMailCharp.vshost.exe
+SendMailCharp/SendMailCharp/bin/Debug/SendMailCharp.exe
+SendMailCharp/SendMailCharp/bin/Debug/SendMailCharp.exe.config
+SendMailCharp/SendMailCharp/bin/Debug/SendMailCharp.pdb
+SendMailCharp/SendMailCharp/bin/Debug/SendMailCharp.vshost.exe.config
+SendMailCharp/SendMailCharp/bin/Debug/SendMailCharp.vshost.exe.manifest
+SendMailCharp/SendMailCharp/obj/Debug/SendMailCharp.csproj.FileListAbsolute.txt
+SendMailCharp/SendMailCharp/obj/Debug/SendMailCharp.exe
+SendMailCharp/SendMailCharp/obj/Debug/SendMailCharp.Form1.resources
+SendMailCharp/SendMailCharp/obj/Debug/SendMailCharp.pdb
+SendMailCharp/SendMailCharp/obj/Debug/SendMailCharp.Properties.Resources.resources
+SendMailCharp/SendMailCharp/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+SendMailCharp/SendMailCharp/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+SendMailCharp/SendMailCharp/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs

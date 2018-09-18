@@ -37,6 +37,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.host = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // sendMail
@@ -55,6 +56,7 @@
             this.from.Name = "from";
             this.from.Size = new System.Drawing.Size(203, 20);
             this.from.TabIndex = 1;
+            this.from.Text = "wachirapolsuw@gosoft.co.th";
             this.from.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // to
@@ -71,6 +73,7 @@
             this.subject.Name = "subject";
             this.subject.Size = new System.Drawing.Size(203, 20);
             this.subject.TabIndex = 3;
+            this.subject.Text = "ทดสอบส่ง Mail";
             // 
             // body
             // 
@@ -79,6 +82,7 @@
             this.body.Name = "body";
             this.body.Size = new System.Drawing.Size(203, 54);
             this.body.TabIndex = 4;
+            this.body.Text = "ทดสอบ 1 2 3 . . .";
             this.body.TextChanged += new System.EventHandler(this.body_TextChanged);
             // 
             // label1
@@ -119,11 +123,21 @@
             this.label4.TabIndex = 8;
             this.label4.Text = "Body";
             // 
+            // host
+            // 
+            this.host.AutoSize = true;
+            this.host.Location = new System.Drawing.Point(22, 231);
+            this.host.Name = "host";
+            this.host.Size = new System.Drawing.Size(154, 13);
+            this.host.TabIndex = 9;
+            this.host.Text = "host: tarmg.cpall.co.th Port : 25";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.host);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -151,6 +165,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label host;
     }
 }
 
